@@ -1,11 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  experimental: {
-    turbopack: {
-      root: ".", // This forces it to stay inside the project folder
-    },
-  },
+  /* No experimental features needed */
 };
 
 export default nextConfig;
