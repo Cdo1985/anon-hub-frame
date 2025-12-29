@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* No experimental features needed */
+  /* No experimental settings needed for production */
 };
 
 export default nextConfig;
